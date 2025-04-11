@@ -29,8 +29,8 @@ Install dependencies via:
 
 ```bash
 pip install pandas scikit-learn torch torchvision torchaudio
-
-Installation
+```
+## Installation
 
 Clone the repository:
 
@@ -59,7 +59,7 @@ Run the main training and evaluation script:
 
 ```bash
 python MatrixFactorization_start.py
-
+```
 This will:
 
 Load and preprocess data.
@@ -72,7 +72,7 @@ Compute and print MSE on the test set.
 
 Compute and print precision@10 and recall@10.
 
-Script Details
+## Script Details
 
 MovieDataset: A torch.utils.data.Dataset that returns (user_tensor, movie_tensor, rating_tensor).
 
@@ -86,14 +86,14 @@ MSE: Mean Squared Error between predicted and true ratings.
 
 Precision@k / Recall@k: For each user, recommends top-k movies by predicted rating, counts how many are truly relevant (rating >= 3.5).
 
-Evaluation
+## Evaluation
 
-Mean Squared Error: Measures average squared difference between predictions and true ratings.
+- Mean Squared Error: Measures average squared difference between predictions and true ratings.
 
-Precision@10: Fraction of top-10 recommendations that are truly relevant.
+- Precision@10: Fraction of top-10 recommendations that are truly relevant.
 
-Recall@10: Fraction of all relevant movies that appear in the top-10 recommendations.
+- Recall@10: Fraction of all relevant movies that appear in the top-10 recommendations.
 
-License
+## License
 
 This project is released under the MIT License.
