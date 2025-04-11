@@ -18,7 +18,7 @@ This repository contains a PyTorch-based implementation of a simple matrix facto
 
 The script loads a ratings.csv file containing user-movie ratings, encodes user and movie IDs, defines a MovieDataset, and trains a simple embedding-based model (RecSysModel) to predict ratings. After training, it computes Mean Squared Error (MSE) on a held-out test set and evaluates recommendation quality using precision@k and recall@k.
 
-Requirements
+## Requirements
 
 Python 3.8+
 pandas
