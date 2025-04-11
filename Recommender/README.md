@@ -11,7 +11,6 @@ This repository contains a PyTorch-based implementation of a simple matrix facto
 - [Usage](#usage)
 - [Script Details](#script-details)
 - [Evaluation](#evaluation)
-- [Results](#results)
 - [License](#license)
 
 ## Overview 
@@ -34,10 +33,10 @@ pip install pandas scikit-learn torch torchvision torchaudio
 
 Clone the repository:
 
-
-
+```bash
 git clone 
-cd 
+cd
+```
 
 2. Ensure dependencies are installed (see [Requirements](#requirements)).
 
