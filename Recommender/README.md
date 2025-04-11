@@ -1,43 +1,33 @@
-Movie Recommendation System
+# Movie Recommendation System
 
 This repository contains a PyTorch-based implementation of a simple matrix factorization recommendation system trained on user-movie ratings. It demonstrates data loading, model definition, training, evaluation, and basic ranking metrics (precision@k and recall@k).
 
-Table of Contents
+## Table of Contents
 
-Overview
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Dataset](#dataset)
+- [Usage](#usage)
+- [Script Details](#script-details)
+- [Evaluation](#evaluation)
+- [Results](#results)
+- [License](#license)
 
-Requirements
-
-Installation
-
-Dataset
-
-Usage
-
-Script Details
-
-Evaluation
-
-Results
-
-License
-
-Overview
+## Overview 
 
 The script loads a ratings.csv file containing user-movie ratings, encodes user and movie IDs, defines a MovieDataset, and trains a simple embedding-based model (RecSysModel) to predict ratings. After training, it computes Mean Squared Error (MSE) on a held-out test set and evaluates recommendation quality using precision@k and recall@k.
 
 Requirements
 
 Python 3.8+
-
 pandas
-
 scikit-learn
-
 torch (PyTorch) 2.2.0 or higher
 
 Install dependencies via:
 
+```bash
 pip install pandas scikit-learn torch torchvision torchaudio
 
 Installation
