@@ -1,0 +1,10 @@
+               precision    recall  f1-score   support
+
+affenpinscher     1.0000    1.0000    1.0000        12
+        akita     1.0000    1.0000    1.0000        10
+        corgi     1.0000    1.0000    1.0000         8
+
+     accuracy                         1.0000        30
+    macro avg     1.0000    1.0000    1.0000        30
+ weighted avg     1.0000    1.0000    1.0000        30
+
