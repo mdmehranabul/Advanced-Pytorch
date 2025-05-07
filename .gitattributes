@@ -1,2 +1,4 @@
 NLP/.vector_cache/* filter=lfs diff=lfs merge=lfs -text
-*.txt filter=lfs diff=lfs merge=lfs -text
+NLP/.vector_cache/*.txt filter=lfs diff=lfs merge=lfs -text
+NLP/.vector_cache/*.zip filter=lfs diff=lfs merge=lfs -text
+NLP/.vector_cache/*.pt filter=lfs diff=lfs merge=lfs -text
